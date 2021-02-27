@@ -1,4 +1,4 @@
-/*
+
 let state = prompt ("Please enter your state's initials")
 
 let weather  = prompt ("Please enter the weather outside in Fahrenheit")
@@ -21,4 +21,3 @@ if (state == 'NE') {
         }
  }   
 
-*/
