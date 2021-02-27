@@ -1,9 +1,12 @@
+// declaring variables and my message array
 
 let state = prompt ("Please enter your state's initials")
 
 let weather  = prompt ("Please enter the weather outside in Fahrenheit")
 
 let messages = ['wear a warm coat, scraft, and gloves.', 'wear a warm coat but you won\'t need a hat, scarf or gloves.' , 'wear your warmest coat, a warm hat, a scarf, and warm gloves.' , '	wear a warm coat, hat and gloves. Maybe a scarf too.']
+
+// I am taking the user inputs from above and based on the given information, I am selecting a corresponding message for the user's state and temperature based off the array above. 
 
 switch (true) {
     case ((state == NE) && (weather < 32)): 
